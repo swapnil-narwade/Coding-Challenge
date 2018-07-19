@@ -1,0 +1,56 @@
+
+body {
+    background: deepskyblue;
+}
+.box {
+    width:500px;
+    height: auto;
+    margin: auto;
+}
+.avatar {
+    width: 100%;
+    margin: auto;
+    border-radius: 200px;
+    height: 85px;
+    position: relative;
+    bottom: -15px;
+}
+.avatar img {
+    width: 55px;
+    height: 55px;
+    border-radius: 200px;
+    margin: auto;
+    border:3px solid #fff;
+    display: block;
+}
+.box input {
+    border: none;
+    background: blanchedalmond;
+    font-weight:700 ;
+    display: block;
+    height: 40px;
+    outline: none;
+    width: calc(100% - 24px) ;
+    margin: auto;
+    padding: 6px 12px 6px 12px;
+}
+.box input[type="text"] {
+    border-radius: 7px 7px 0px 0px ;
+}
+.box input[type="password"] {
+    border-radius: 0px 0px 7px 7px ;
+}
+.box button {
+    width: 100%;
+    border-radius: 7px;
+    background: #b6ee65;
+    border: none;
+    color: #51771a;
+    margin-top:-5px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    outline: none;
+    font-size: 13px;
+    border-bottom: 3px solid #307d63;
+    cursor: pointer;
+}
